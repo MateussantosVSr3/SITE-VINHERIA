@@ -1,0 +1,97 @@
+/*Estilo Geral*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+body{
+    background-color: black;
+    height: 100vh;
+}
+
+.interface{
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.flex{
+    display: flex;
+}
+
+button:hover{
+    box-shadow: 0px 0px 8px #561d2e;
+    transform: scale(1.05);
+}
+
+/* Estilo do Cabeçalho */
+header{
+  padding: 40px 4%;
+}
+
+header .interface{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+header a{
+    color: rgb(58, 56, 56);
+    text-decoration: none;
+    display: inline-block;
+    transition: .2s;
+}
+
+header a:hover{
+    color:white;
+    transform: scale(1.05);
+}
+
+header nav ul{
+    list-style-type: none;
+}
+
+header nav ul li{
+    display: inline-block;
+    padding: 0 40px;
+}
+
+/* Esltilo login */
+.login{
+    padding: 40px 4%;
+    background-color: white;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 100px;
+    border-radius: 15px;
+}
+
+.login h1 span{
+    color: #561d2e;
+}
+
+input{
+    padding: 30px;
+    border: none;
+    outline: none;
+    font-size: 15px;
+}
+
+.login h1{
+    border: none;
+    padding: 15px;
+    height: 90px;
+
+}
+
+.criar button{
+    background-color: #561d2e;
+    color:white;
+    border: none;
+    padding: 15px;
+    width: 100%;
+    border-radius: 10px;
+    font-size: 15px;
+}
