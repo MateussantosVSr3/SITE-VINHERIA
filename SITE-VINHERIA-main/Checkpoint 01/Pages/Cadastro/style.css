@@ -61,7 +61,7 @@ header nav ul li{
     padding: 40px 4%;
     background-color: white;
     position: absolute;
-    top: 50%;
+    top: 60%;
     left: 50%;
     transform: translate(-50%, -50%);
     padding: 100px;
@@ -86,7 +86,7 @@ input{
 
 }
 
-.entrar button{
+.criar button{
     background-color: #561d2e;
     color:white;
     border: none;
@@ -94,17 +94,4 @@ input{
     width: 100%;
     border-radius: 10px;
     font-size: 15px;
-}
-
-.cadastro button{
-    background-color: white;
-    color:black;
-    border: none;
-    padding: 10px;
-    width: 50%;
-    border-radius: 10px;
-    font-size: 15px;
-    top: -50%;
-    left: -100%;
-    transform: translate(+50%, +100%);
 }
